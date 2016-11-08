@@ -1,0 +1,74 @@
+﻿<html>
+
+<head>
+
+<title> My First HTML Page </title>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<h2> Table</h2>
+
+<table id ="t01">
+
+<h1>
+ <caption>Information Of Employee</caption>
+</h1>
+<colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Mansi</td>
+    <td>Chaudhary</td> 
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>Suyog </td>
+    <td>Deshmukh </td>
+    <td>31</td>
+  </tr>
+</table>
+
+<h2>Jelly Fish</h2>
+
+<img src="C:\Users\Public\Pictures\Sample Pictures\Jellyfish.jpg" alt="Jelly Fish" style="width:304px;height:228px;">
+
+<h2>Link</h2>
+
+<a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+
+</body>
+
+
+</html>
+
